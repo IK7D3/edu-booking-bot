@@ -5,8 +5,6 @@ import App from './App';
 import { init } from '@telegram-apps/sdk';
 
 init();
-// console.log(retrieveLaunchParams());
-// console.log('df');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
