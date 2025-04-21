@@ -12,6 +12,8 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+  // console.log('hk');
+  
 
   return (
     <div className="h-screen w-screen overflow-hidden relative">
