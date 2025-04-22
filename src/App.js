@@ -1,39 +1,25 @@
-import RegistrationPage from "./pages/RegistrationPage";
-import WelcomePage from "./pages/WelcomePage";
-import { useState, useEffect } from "react";
+// src/App.js
+import { useEffect, useState } from "react";
+import { routes } from "./router";
 
 function App() {
-  const [fadeOut, setFadeOut] = useState(false);
+  const [currentPage, setCurrentPage] = useState("welcome");
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setFadeOut(true); // شروع انیمیشن محو شدن
-    }, 3000); // نمایش صفحه ولکام برای 3 ثانیه
+    // اتوماتیک بعد 3 ثانیه از welcome بره به register
+    if (currentPage === "welcome") {
+      const timer = setTimeout(() => {
+        setCurrentPage("register");
+      }, 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [currentPage]);
 
-    return () => clearTimeout(timer);
-  }, []);
-  // console.log('hk');
-  
+  const PageComponent = routes[currentPage]?.component;
 
   return (
     <div className="h-screen w-screen overflow-hidden relative">
-      {/* صفحه Welcome */}
-      <div
-        className={`absolute inset-0 transition-opacity duration-1000 ${
-          fadeOut ? "opacity-0 pointer-events-none" : "opacity-100"
-        }`}
-      >
-        <WelcomePage />
-      </div>
-
-      {/* صفحه Registration */}
-      <div
-        className={`absolute inset-0 transition-opacity duration-1000 ${
-          fadeOut ? "opacity-100" : "opacity-0 pointer-events-none"
-        }`}
-      >
-        <RegistrationPage />
-      </div>
+      {PageComponent && <PageComponent setCurrentPage={setCurrentPage} />}
     </div>
   );
 }
