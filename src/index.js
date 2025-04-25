@@ -5,7 +5,7 @@ import App from './App';
 // import { init } from '@telegram-apps/sdk';
 
 // init();
-// console.log(window.Telegram?.WebApp);
+// console.log(window.Telegram?.WebApp.initDataUnsafe.user.photo_url);
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

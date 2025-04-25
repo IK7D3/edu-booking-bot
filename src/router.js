@@ -8,7 +8,8 @@ export const routes = {
     component: WelcomePage,
   },
   register: {
-    component: RegistrationPage,
+    // component: RegistrationPage,
+    component: Dashboard,
   },
   dashboard: {
     component: Dashboard,

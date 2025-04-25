@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import FloatingInput from "../components/FloatingInput";
 
-export default function RegistrationPage() {
+export default function RegistrationPage({setCurrentPage }) {
   const [name, setName] = useState("");
   const [lastName, setLastName] = useState("");
   const [stuId, setStuId] = useState("");
@@ -29,6 +29,7 @@ export default function RegistrationPage() {
         if (response.ok) {
             console.log("Success:", result);
             window.Telegram.WebApp.showAlert("اطلاعات با موفقیت ارسال شد!");
+            setCurrentPage("dashboard");
         } else {
             if (result.errors) {
                 // گرفتن اولین خطا برای نمایش
