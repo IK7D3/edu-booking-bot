@@ -1,6 +1,6 @@
 // src/router.js
 import WelcomePage from "./pages/WelcomePage";
-import RegistrationPage from "./pages/RegistrationPage";
+// import RegistrationPage from "./pages/RegistrationPage";
 import Dashboard from "./pages/Dashboard";
 
 export const routes = {
