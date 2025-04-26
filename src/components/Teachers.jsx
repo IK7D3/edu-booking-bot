@@ -148,6 +148,296 @@ const Teachers = () => {
          </div>
       </div>
    </li>
+   <li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li><li class="pt-3 pb-0 sm:pt-4">
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+         <div class="shrink-0">
+         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         </div>
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
+               Lana Byrd
+            </p>
+            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+               email@flowbite.com
+            </p>
+         </div>
+         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            $367
+         </div>
+      </div>
+   </li>
 </ul>
 
     </div>
