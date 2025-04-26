@@ -4,441 +4,410 @@ const Teachers = () => {
   return (
     <div className='h-screen overflow-y-auto'>
         
-    <ul className="max-w-md divide-y divide-gray-200 dark:divide-gray-700 p-5">
-        <li class="pb-3 sm:pb-4">
+    <ul className="max-w-md divide-y  p-5">
+
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/250/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
 
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Neil Sims
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $320
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li>
-   <li class="py-3 sm:py-4">
+        </li>
+     
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Bonnie Green
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $3467
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li>
-   <li class="py-3 sm:py-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Michael Gough
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $67
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li>
-   <li class="py-3 sm:py-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Thomas Lean
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $2367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li>
-   <li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li>
-   <li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li>
-   <li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
+        </li>
+    <li class="pb-3 pt-3 sm:pb-4 hover:bg-slate-200 pr-5 rounded-md">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
+         <img className="w-14 h-14 rounded-xl" src="https://picsum.photos/250/256" alt="Neil Sims" />
+
          </div>
          <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
+            <p class="text-lg font-medium text-gray-900 truncate dark:text-gray-950">
+            علی‌محمد لطیف
             </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
+            <p class="text-base text-gray-500 truncate dark:text-gray-400">
+            استاد، هیأت علمی فعال
             </p>
          </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
+         {/* <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
+            کلیک
+         </div> */}
       </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
-      <div class="flex items-center space-x-4 rtl:space-x-reverse">
-         <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
-         </div>
-         <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
-            </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
-            </p>
-         </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
-      </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
-      <div class="flex items-center space-x-4 rtl:space-x-reverse">
-         <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
-         </div>
-         <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
-            </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
-            </p>
-         </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
-      </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
-      <div class="flex items-center space-x-4 rtl:space-x-reverse">
-         <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
-         </div>
-         <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
-            </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
-            </p>
-         </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
-      </div>
-   </li><li class="pt-3 pb-0 sm:pt-4">
-      <div class="flex items-center space-x-4 rtl:space-x-reverse">
-         <div class="shrink-0">
-         <img className="w-8 h-8 rounded-full" src="https://picsum.photos/256/256" alt="Neil Sims" />
-         </div>
-         <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-950">
-               Lana Byrd
-            </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
-            </p>
-         </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-950">
-            $367
-         </div>
-      </div>
-   </li>
-</ul>
+        </li>   
+   
+    </ul>
 
     </div>
   )
