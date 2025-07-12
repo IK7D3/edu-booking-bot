@@ -6,13 +6,15 @@ export default function RegistrationPage({setCurrentPage }) {
   const [lastName, setLastName] = useState("");
   const [stuId, setStuId] = useState("");
   const [phone, setPhone] = useState("");
-
+ 
+  
   const handleSubmit = async () => {
     const data = {
       name,
       lastName,
       stuId,
       phone,
+      userTelegramId: window.Telegram.WebApp.initDataUnsafe.user.id
     };
 
     try {
@@ -23,7 +25,8 @@ export default function RegistrationPage({setCurrentPage }) {
             },
             body: JSON.stringify(data),
         });
-    
+        console.log("data: ", data);
+        
         const result = await response.json();
     
         if (response.ok) {

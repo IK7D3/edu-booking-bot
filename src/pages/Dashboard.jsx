@@ -1,37 +1,30 @@
-import Lottie from 'lottie-react'
-import React from 'react'
-import animationData from "../assets/Anim1.json" // مسیر فایل JSON انیمیشن
-import Teachers from '../components/Teachers'
+import Lottie from 'lottie-react';
+import React from 'react';
+import animationData from "../assets/Anim1.json"; // مسیر فایل JSON انیمیشن
+import Teachers from '../components/Teachers';
 
-const Dashboard = () => {
+const Dashboard = ({ setSelectedTeacher, setCurrentPage, userTelegramId }) => {
   return (
     <>
+    <h2 className="text-xl font-bold text-gray-100 mb-2 bg-cyan-800 pb-4  p-3 text-center
+      border-b">اساتید</h2>
+      <Teachers
+        setSelectedTeacher={setSelectedTeacher}
+        setCurrentPage={setCurrentPage}
+        userTelegramId={userTelegramId}
+      />     
 
-      <Teachers/>
-        <div className="fixed bottom-0 left-0 z-50 w-full h-20 bg-white border-t 
-        border-gray-200 dark:bg-gray-100 ">
-              <div className="grid h-full max-w-lg  mx-auto font-medium">
-                <div type="button" className="inline-flex flex-grow items-center text-gray-700 
-                justify-center px-5 hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 group">
-                    <div className='w-20 h-20 '>
-              <Lottie animationData={animationData} loop={true} autoplay={true} speed={2.5} />
-            </div>
-            <div className="font-medium text-sm ">
-            <div className='font-bold '>ایمان کریمیان</div>
-            {/* <div>{window.Telegram?.WebApp.initDataUnsafe.user.username}</div> */}
-            <div className="text-sm text-gray-500 dark:text-gray-400">40022313</div>
-          </div>
-                </div>
-
-
-          
-            </div>
-        </div>
-
-    
+      {/* 🔘 دکمه مشاهده وقت‌های من */}
+      <div className="fixed bottom-0 left-0 w-full p-4 py-7  z-40">
+        <button
+          onClick={() => setCurrentPage("myReservations")}
+          className="w-full py-4 bg-cyan-700 text-white rounded-lg hover:bg-cyan-800 transition-colors font-semibold text-lg"
+        >
+          مشاهده وقت‌های من
+        </button>
+      </div>
     </>
+  );
+};
 
-  )
-}
-
-export default Dashboard
+export default Dashboard;

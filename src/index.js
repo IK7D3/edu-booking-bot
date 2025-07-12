@@ -5,7 +5,7 @@ import App from './App';
 // import { init } from '@telegram-apps/sdk';
 
 // init();
-// console.log(window.Telegram?.WebApp.initDataUnsafe.user.photo_url);
+window.Telegram.WebApp.setHeaderColor("#155e75");
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
