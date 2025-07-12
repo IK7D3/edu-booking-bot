@@ -1,8 +1,7 @@
 import axios from 'axios';
-import React, {  useEffect, useState } from "react";
+import  {  useEffect, useState } from "react";
 import DayTabs from "../components/DayTabs";
 import ShowTime from "../components/ShowTime";
-import MyReservations from './MyReservations';
 
 const getWeekdayFromDate = (dateString) => {
   const date = new Date(dateString);
@@ -25,7 +24,7 @@ const handleReserve = async (selectedTime) => {
   
   
   try {
-    const res = await axios.post('http://localhost:8000/api/reserve', {
+    await axios.post('http://localhost:8000/api/reserve', {
       teacher_id: selectedTeacher.id,
       available_time_id: selectedTime.id,
       userTelegramId: String(userTelegramId),

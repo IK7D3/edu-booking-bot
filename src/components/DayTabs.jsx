@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 const getThisWeekDays = () => {
   const days = [];
   const weekdayFormatter = new Intl.DateTimeFormat('fa-IR', { weekday: 'long' });

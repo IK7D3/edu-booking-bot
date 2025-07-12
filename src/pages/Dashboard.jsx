@@ -1,6 +1,3 @@
-import Lottie from 'lottie-react';
-import React from 'react';
-import animationData from "../assets/Anim1.json"; // مسیر فایل JSON انیمیشن
 import Teachers from '../components/Teachers';
 
 const Dashboard = ({ setSelectedTeacher, setCurrentPage, userTelegramId }) => {
