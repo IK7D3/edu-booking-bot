@@ -24,7 +24,7 @@ const handleReserve = async (selectedTime) => {
   
   
   try {
-    await axios.post('http://localhost:8000/api/reserve', {
+    await axios.post(`${process.env.REACT_APP_API_BASE}/reserve`, {
       teacher_id: selectedTeacher.id,
       available_time_id: selectedTime.id,
       userTelegramId: String(userTelegramId),
@@ -50,7 +50,7 @@ const handleReserve = async (selectedTime) => {
     const fetchAvailableTimes = async () => {
       setLoading(true);
       try {
-        const response = await axios.get(`http://localhost:8000/api/availableTime`, {
+        const response = await axios.get(`${process.env.REACT_APP_API_BASE}/availableTime`, {
           params: {
             teacher_id: selectedTeacher.id,
             day: weekday,

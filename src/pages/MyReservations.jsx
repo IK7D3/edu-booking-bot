@@ -8,7 +8,7 @@ const [selectedReservationId, setSelectedReservationId] = useState(null);
 
   useEffect(() => {
     if (userTelegramId) {
-      axios.get(`http://localhost:8000/api/reservations/details/${userTelegramId}`)
+      axios.get(`${process.env.REACT_APP_API_BASE}/reservations/details/${userTelegramId}`)
         .then(res => setReservations(res.data))
         .catch(err => console.error("خطا در دریافت رزروها:", err));
     }
@@ -20,7 +20,7 @@ const [selectedReservationId, setSelectedReservationId] = useState(null);
 };
 
 const confirmDelete = () => {
-  axios.delete(`http://localhost:8000/api/reservations/${selectedReservationId}`)
+  axios.delete(`${process.env.REACT_APP_API_BASE}/reservations/${selectedReservationId}`)
     .then(() => {
       setReservations(reservations.filter(r => r.id !== selectedReservationId));
       setShowDeleteModal(false);

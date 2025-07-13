@@ -12,7 +12,7 @@ function App() {
         try {
           const telegramId = window.Telegram.WebApp.initDataUnsafe.user.id;
           setUserTelegramId(telegramId);
-          const response = await fetch(`http://localhost:8000/api/check-user?userTelegramId=${telegramId}`);
+          const response = await fetch(`${process.env.REACT_APP_API_BASE}/check-user?userTelegramId=${telegramId}`);
           const result = await response.json();
 
           if (result.registered) {

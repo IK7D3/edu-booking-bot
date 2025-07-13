@@ -8,11 +8,11 @@ const Teachers = ({ setSelectedTeacher, setCurrentPage, userTelegramId }) => {
   const [showAlert, setShowAlert] = useState(false);
 
   useEffect(() => {
-    axios.get('http://localhost:8000/api/teachers')
+    axios.get(`${process.env.REACT_APP_API_BASE}/teachers`)
       .then((res) => setTeachersList(res.data));
 
     if (userTelegramId) {
-      axios.get(`http://localhost:8000/api/reservations/teachers/${userTelegramId}`)
+      axios.get(`${process.env.REACT_APP_API_BASE}/reservations/teachers/${userTelegramId}`)
         .then(res => setReservedTeacherIds(res.data))
         .catch(err => console.error("خطا در دریافت رزروها", err));
     }
