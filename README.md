@@ -11,7 +11,7 @@
 
 **استادجو** طراحی شده تا این مسیر را ساده و حرفه‌ای کند:
 
-- استاد زمان‌های ملاقات خود را ثبت میکند  
+- استاد زمان‌های ملاقات خود را ثبت می‌کند  
 - دانشجو زمان‌های آزاد استاد را می‌بیند  
 - به‌راحتی زمان موردنظر را رزرو می‌کند  
 - تأییدیه رزرو و یادآوری به صورت خودکار ارسال می‌شود
@@ -41,9 +41,9 @@
   max-width: 100%;
 ">
 
-  <img src="./screenshots/1.png" alt="نمای دانشجو" style="width: 300px; max-width: 90vw; border-radius: 8px; box-shadow: 0 3px 7px rgba(0,0,0,0.1);" />
-  <img src="./screenshots/2.png" alt="پنل استاد" style="width: 300px; max-width: 90vw; border-radius: 8px; box-shadow: 0 3px 7px rgba(0,0,0,0.1);" />
-  <img src="./screenshots/3.png" alt="تأیید رزرو" style="width: 300px; max-width: 90vw; border-radius: 8px; box-shadow: 0 3px 7px rgba(0,0,0,0.1);" />
+  <img src="./screenshots/1.png" alt="نمای دانشجو" style="width: 200px; max-width: 90vw; border-radius: 8px; box-shadow: 0 3px 7px rgba(0,0,0,0.1);" />
+  <img src="./screenshots/2.png" alt="پنل استاد" style="width: 200px; max-width: 90vw; border-radius: 8px; box-shadow: 0 3px 7px rgba(0,0,0,0.1);" />
+  <img src="./screenshots/3.png" alt="تأیید رزرو" style="width: 200px; max-width: 90vw; border-radius: 8px; box-shadow: 0 3px 7px rgba(0,0,0,0.1);" />
 
 </div>
 
