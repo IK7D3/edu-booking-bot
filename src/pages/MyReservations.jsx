@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const MyReservations = ({ userTelegramId, setCurrentPage }) => {
-  const [reservations, setReservations] = useState([]);
+const [reservations, setReservations] = useState([]);
 const [showDeleteModal, setShowDeleteModal] = useState(false);
 const [selectedReservationId, setSelectedReservationId] = useState(null);
 
@@ -74,8 +74,9 @@ const confirmDelete = () => {
              shadow-md p-4 flex justify-between items-center ">
               <div>
                 <p className="text-gray-800 font-semibold text-lg">{res.teacher_name}</p>
-                <p className="text-gray-600 text-sm mt-1">تاریخ: {res.date}</p>
-                <p className="text-gray-600 text-sm">از ساعت {res.start_time} تا {res.end_time}</p>
+                <p className="text-gray-700 text-sm mt-1">روز: {res.day}</p>
+                <p className="text-gray-700 text-sm ">تاریخ: {res.date}</p>
+                <p className="text-gray-700 text-sm">از ساعت {res.start_time} تا {res.end_time}</p>
               </div>
               <button
   onClick={() => handleDeleteClick(res.id)}

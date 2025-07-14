@@ -6,29 +6,37 @@ function App() {
   const [selectedTeacher, setSelectedTeacher] = useState(null);
   const [userTelegramId, setUserTelegramId] = useState(null);
 
-  useEffect(() => {
-    if (currentPage === "welcome") {
-      const timer = setTimeout(async () => {
-        try {
-          const telegramId = window.Telegram.WebApp.initDataUnsafe.user.id;
-          setUserTelegramId(telegramId);
-          const response = await fetch(`${process.env.REACT_APP_API_BASE}/check-user?userTelegramId=${telegramId}`);
-          const result = await response.json();
+useEffect(() => {
+  if (currentPage === "welcome") {
+    const timer = setTimeout(async () => {
+      try {
+        const telegramId = window.Telegram.WebApp.initDataUnsafe.user.id;
+        setUserTelegramId(telegramId);
 
-          if (result.registered) {
-            setCurrentPage("dashboard");
+        const res = await fetch(
+          `${process.env.REACT_APP_API_BASE}/check-user?userTelegramId=${telegramId}`
+        );
+        const { registered, role } = await res.json();
+
+        if (!registered) {
+          setCurrentPage("register");
+        } else {
+          if (role === "teacher") {
+            setCurrentPage("teacherDash");
           } else {
-            setCurrentPage("register");
+            setCurrentPage("dashboard");
           }
-        } catch (error) {
-          console.error("خطا در بررسی ثبت‌نام:", error);
-          setCurrentPage("register"); // fallback
         }
-      }, 3000);
+      } catch (e) {
+        console.error("check-user error:", e);
+        setCurrentPage("register");
+      }
+    }, 3000);
 
-      return () => clearTimeout(timer);
-    }
-  }, [currentPage]);
+    return () => clearTimeout(timer);
+  }
+}, [currentPage]);
+
 
   const PageComponent = routes[currentPage]?.component;
 
