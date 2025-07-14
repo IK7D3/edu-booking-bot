@@ -110,23 +110,23 @@ export default function EditTimes({ setCurrentPage, userTelegramId }) {
 //   <p className="h-full w-full text-2xl font-bold content-center  p-6 text-center text-cyan-600">در حال بارگذاری…</p>;
 
   return(
-  <div className="h-full flex flex-col">
+  <div className="h-full flex flex-col font-vazir">
     <h2 className="text-xl font-bold text-gray-100 mb-1 bg-cyan-800 py-3 pb-4 text-center border-b"
         >
         مدیریت زمان‌های حضور
       </h2>
     {/* بخش قابل اسکرول */}
-    <div className="flex-1 overflow-y-auto  pb-20">
+    <div className="flex-1 overflow-y-auto  pb-32">
       
 
       {DAYS.map(day=>(
-        <div key={day} className="mb-6 p-7">
+        <div key={day} className="mb- p-7">
           {/* سرتیتر روز + دکمه افزودن */}
-          <div className="flex justify-between items-center mb-2">
-            <h3 className="text-xl font-semibold">{day}</h3>
+          <div className="flex justify-between items-center mb-2 pb-2 border-b bg-white ">
+            <h3 className="text-xl  font-semibold">{day}</h3>
             <button
               onClick={()=>{setNewDay(day); setNewStart("08:00"); setNewEnd("09:00");}}
-              className="text-base ml-2 text-cyan-700 hover:underline"
+              className="text-base ml-5 text-cyan-700 hover:underline"
             >
               + افزودن تایم
             </button>
@@ -137,11 +137,11 @@ export default function EditTimes({ setCurrentPage, userTelegramId }) {
           ):(
             <div className="space-y-2">
               {slots[day].map(s=>(
-                <div key={s.id} className="flex justify-between items-center px-6 py-1 border rounded-full">
+                <div key={s.id} className="flex justify-between items-center px-3 py-1 border rounded-full">
                   <span className="text-lg font-base">
                     {s.start_time?.slice(0, 5)} – {s.end_time?.slice(0, 5)}
                     {s.is_reserved === 1 && (
-                        <span className="mr-2 text-red-500 text-sm">(رزرو شده)</span>
+                        <span className="mr-1 text-red-500 text-sm">(رزرو شده)</span>
                     )}
                     </span>
 

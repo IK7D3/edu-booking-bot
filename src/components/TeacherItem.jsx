@@ -4,7 +4,7 @@ import animationData from '../assets/Anim3.json' // مسیر فایل JSON ان�
 
 const TeacherItem = ({ name, title,team, imageUrl, onClick }) => {
   return (
-    <li className="cursor-pointer  py-4 sm:pb-4 hover:bg-slate-100 px-1 rounded-md"
+    <li className="cursor-pointer font-vazir  py-4 sm:pb-4 hover:bg-slate-100 px-1 rounded-md"
     onClick={onClick}>
       <div  className="flex items-center space-x-3 rtl:space-x-reverse">
         <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-gray-500">

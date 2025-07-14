@@ -56,7 +56,7 @@ export default function TeacherDashboard({ userTelegramId, setCurrentPage }) {
      <Lottie animationData={animationData} loop autoplay speed={2.5} /></div></div>;
 
   return (
-    <div className="pb-32">
+    <div className="pb-32 font-vazir">
       <h2
         className="text-xl font-bold text-gray-100 mb-5 bg-cyan-800 py-3 pb-4 text-center border-b"
       >
@@ -88,8 +88,8 @@ export default function TeacherDashboard({ userTelegramId, setCurrentPage }) {
                 <p className="text-gray-700 text-base mt-1">
                   {`روز ${r.day} | ${r.start_time} – ${r.end_time}`}
                 </p>
-                <p className="text-gray-700 text-sm ">شماره دانشجویی: {r.stuId}</p>
-                <p className="text-gray-700 text-sm">تلفن: {r.phone}</p>
+                <p className="text-gray-700 text-sm mt-1">شماره دانشجویی: {r.stuId}</p>
+                <p className="text-gray-700 text-sm mt-1">تلفن: {r.phone}</p>
               </div>
             </li>
           ))}
@@ -136,7 +136,7 @@ export default function TeacherDashboard({ userTelegramId, setCurrentPage }) {
           onClick={() => setCurrentPage('editTimes')}
           className="w-full py-4 bg-cyan-700 text-white rounded-lg hover:bg-gray-700 font-semibold text-lg"
         >
-          ویرایش زمانها
+         تایم های من
         </button>
       </div>
     </div>

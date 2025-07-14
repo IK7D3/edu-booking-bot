@@ -18,6 +18,10 @@ module.exports = {
           "100%": { opacity: "0" },
         },
       },
+      fontFamily: {
+        kalame: ['Kalameh', 'sans-serif'],
+        vazir: ['Vazir', 'sans-serif'],
+      },
     },
   },
   plugins: [],

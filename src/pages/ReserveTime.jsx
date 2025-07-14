@@ -2,6 +2,8 @@ import axios from 'axios';
 import  {  useEffect, useState } from "react";
 import DayTabs from "../components/DayTabs";
 import ShowTime from "../components/ShowTime";
+import animationData from '../assets/Glow loading.json'
+import Lottie from 'lottie-react'
 
 const getWeekdayFromDate = (dateString) => {
   const date = new Date(dateString);
@@ -125,9 +127,10 @@ const handleReserve = async (selectedTime) => {
 
       <div className="overflow-y-auto mt-4 px-4" style={{ height: "calc(100vh - 260px)" }}>
         {loading ? (
-          <div className="text-center text-cyan-700 font-bold animate-pulse mt-10">
-            در حال بارگذاری تایم‌ها...
-          </div>
+          
+          <div className=" flex  w-full text-2xl font-bold content-center justify-center items-center  text-center text-cyan-600">
+            <div className="w-32 h-32">
+              <Lottie animationData={animationData} loop autoplay speed={2.5} /></div></div>
         ) : timesToReserve.length === 0 ? (
           <div className="text-center text-red-500 font-semibold mt-10">
             استاد در این روز تایم خالی ندارند.
