@@ -1,0 +1,40 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"my_app_backend"},
+{"type":"table","name":"available_times","database":"my_app_backend","data":
+[
+{"id":"1","teacher_id":"1","day":"شنبه","start_time":"15:00:00","end_time":"15:40:00","is_reserved":"0"},
+{"id":"6","teacher_id":"1","day":"یک‌شنبه","start_time":"17:00:00","end_time":"18:00:00","is_reserved":"0"},
+{"id":"8","teacher_id":"1","day":"یک‌شنبه","start_time":"17:00:00","end_time":"18:00:00","is_reserved":"0"},
+{"id":"9","teacher_id":"2","day":"شنبه","start_time":"23:10:00","end_time":"23:30:00","is_reserved":"1"},
+{"id":"10","teacher_id":"2","day":"دوشنبه","start_time":"15:30:00","end_time":"16:00:00","is_reserved":"0"},
+{"id":"11","teacher_id":"1","day":"سه‌شنبه","start_time":"17:00:00","end_time":"18:00:00","is_reserved":"0"},
+{"id":"12","teacher_id":"1","day":"چهارشنبه","start_time":"15:00:00","end_time":"18:00:00","is_reserved":"1"},
+{"id":"13","teacher_id":"1","day":"پنج‌شنبه","start_time":"17:00:00","end_time":"18:00:00","is_reserved":"0"},
+{"id":"14","teacher_id":"1","day":"سه‌شنبه","start_time":"15:00:00","end_time":"15:30:00","is_reserved":"0"},
+{"id":"15","teacher_id":"3","day":"یکشنبه","start_time":"12:00:00","end_time":"13:00:00","is_reserved":"1"},
+{"id":"16","teacher_id":"3","day":"دوشنبه","start_time":"12:00:00","end_time":"13:00:00","is_reserved":"0"},
+{"id":"19","teacher_id":"1","day":"سه‌شنبه","start_time":"08:00:00","end_time":"10:00:00","is_reserved":"0"}
+]
+}
+,{"type":"table","name":"reservations","database":"my_app_backend","data":
+[
+{"id":"25","userTelegramId":"11","teacher_id":"1","available_time_id":"12"},
+{"id":"26","userTelegramId":"11","teacher_id":"3","available_time_id":"15"},
+{"id":"27","userTelegramId":"11","teacher_id":"2","available_time_id":"9"}
+]
+}
+,{"type":"table","name":"teachers","database":"my_app_backend","data":
+[
+{"id":"1","name":"علی‌محمد لطیف","field":"استاد، هیأت علمی فعال","team":"گروه هوش مصنوعی و رباتیک","avatar_url":"https:\/\/yazd.ac.ir\/peopleimages\/alatif.jpg"},
+{"id":"2","name":"فضل‌الله ادیب‌نیا","field":"دانشیار، هیأت علمی فعال","team":"گروه فناوری اطلاعات","avatar_url":"https:\/\/yazd.ac.ir\/peopleimages\/fadib.jpg"},
+{"id":"3","name":"محمد‌علی زارع چاهوکی","field":"دانشیار، هیأت علمی فعال","team":"گروه نرم‌افزار","avatar_url":"https:\/\/yazd.ac.ir\/peopleimages\/chahooki.jpg"}
+]
+}
+,{"type":"table","name":"users","database":"my_app_backend","data":
+[
+{"id":"16","userTelegramId":"11","name":"ایمان","lastName":"کریمیان","stuId":"40022313","phone":"09103404205","created_at":"2025-07-08 16:03:03","updated_at":"2025-07-08 16:03:03"},
+{"id":"19","userTelegramId":"1234567890","name":"علی‌محمد","lastName":"لطیف","stuId":"00","phone":"00","created_at":null,"updated_at":null}
+]
+}
+]
